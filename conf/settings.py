@@ -56,9 +56,11 @@ THIRD_PARTY = [
     'rest_framework_simplejwt',
     'django_extensions',
     'corsheaders',
+    'django_filters',
 ]
 SYSTEM_APPS = [
     'apps.user',
+    'apps.tiktok',
 ]
 
 INSTALLED_APPS += THIRD_PARTY + SYSTEM_APPS

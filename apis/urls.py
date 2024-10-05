@@ -8,4 +8,5 @@ from django.urls import path, include
 # Put here all apps url 
 urlpatterns = [
     path('users/', include('apps.user.urls')),
+    path('tiktok/', include('apps.tiktok.urls')),
 ]
